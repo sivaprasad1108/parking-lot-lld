@@ -1,0 +1,12 @@
+{
+  "name": "parking-lot-lld",
+  "version": "0.1.0",
+  "description": "Low-level design for a smart parking lot (JavaScript)",
+  "main": "src/js/index.js",
+  "scripts": {
+    "start": "node src/js/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
