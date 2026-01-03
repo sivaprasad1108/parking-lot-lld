@@ -40,7 +40,7 @@ exports.Logger = {
     console.log(COLORS.BLUE + '[INFO]' + COLORS.RESET, color, ...formatArgs(args), COLORS.RESET);
   },
   warn(...args) {
-    console.warn(COLORS.YELLOW +'[WARN]', ...formatArgs(args), COLORS.RESET);
+    console.warn(COLORS.YELLOW +'[WARN] ', ...formatArgs(args), COLORS.RESET);
   },
   error(...args) {
     console.error(COLORS.RED, '[ERROR]', ...formatArgs(args), COLORS.RESET);

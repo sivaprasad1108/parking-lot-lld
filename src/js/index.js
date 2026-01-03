@@ -57,15 +57,16 @@ async function main() {
 
   parkingService.availabilityService.getAvailability();
 
-  const v1 = new Vehicle('TN-01-1111', VehicleType.CAR);
+  const v1 = new Vehicle('TN-01 AY-1111', VehicleType.CAR);
   const ticket1 = parkingService.entryService.checkIn(v1);
 
-  const v2 = new Vehicle('TN-02-2222', VehicleType.MOTORCYCLE);
+  const v2 = new Vehicle('TN-02 AY-2222', VehicleType.MOTORCYCLE);
   const ticket2 = parkingService.entryService.checkIn(v2);
 
   parkingService.availabilityService.getAvailability();
 
   const randomWaitTime = (Math.floor(Math.random() * 10) + 1) * 1000;
+  Logger.info(`Simulating time passage, Please wait...`);
   await new Promise(resolve => setTimeout(resolve, randomWaitTime));
 
   parkingService.exitService.checkOut(ticket1.id);

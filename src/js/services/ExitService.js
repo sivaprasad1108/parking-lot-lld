@@ -13,6 +13,7 @@ class ExitService {
   }
 
   checkOut(ticketId) {
+    Logger.info("")
     Logger.info(`[EXIT] Vehicle attempting check-out with ticket ${ticketId}`);
     
     const ticket = this.ticketRepo.get(ticketId);

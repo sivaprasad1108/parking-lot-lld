@@ -159,28 +159,28 @@ The receipt uses Unicode box-drawing characters and is right-aligned for visual 
 [INFO] === PARKING LOT SYSTEM DEMO ===
 [INFO] [SETUP] Parking lot initialized with 3 floors, 50 spots per floor
 
-[INFO] [ENTRY] Vehicle TN-01-1111 (CAR) attempting check-in
-[INFO] [ENTRY] Vehicle TN-01-1111 parked at spot F1S2-#ABC123 (Floor 1). Ticket: T-XYZ789
+[INFO] [ENTRY] Vehicle TN-01 AY-1111 (CAR) attempting check-in
+[INFO] [ENTRY] Vehicle TN-01 AY-1111 parked at spot F1S2-#ABC123 (Floor 1). Ticket: T-XYZ789
 
 [INFO] [AVAILABILITY] Floor 1: 48 spots | Floor 2: 50 spots | Floor 3: 50 spots
 
-[INFO] [EXIT] Vehicle TN-01-1111 (CAR) checked out. Duration: 5min, Fee: $7.50
+[INFO] [EXIT] Vehicle TN-01 AY-1111 (CAR) checked out. Duration: 5min, Fee: $7.50
 
         ╔════════════════════════════════════════════════╗
         ║                 PARKING RECEIPT                ║
         ║                 ═══════════════                ║
         ║                                                ║
-        ║ Vehicle Number      : TN-01-1111               ║
+        ║ Vehicle Number      : TN-01 AY-1111               ║
         ║ Vehicle Type        : CAR                      ║
-        ║ Ticket ID           : T-MJYLY9H9151            ║
-        ║ Parking Spot        : F1S2-#MJYLY9H62          ║
+        ║ Ticket ID           : T-MJYQM8KO151            ║
+        ║ Parking Spot        : F1S2-#MJYQM8KK2          ║
         ║ Floor               : 1                        ║
-        ║ Entry Time          : 11:29:55 PM (1/3/2026)   ║
-        ║ Exit Time           : 11:29:56 PM (1/3/2026)   ║
-        ║ Duration            : 0 minutes                ║
+        ║ Entry Time          : 1:40:32 AM (1/4/2026)    ║
+        ║ Exit Time           : 1:40:39 AM (1/4/2026)    ║
+        ║ Duration            : 420 minutes (7.0 hr(s))  ║
         ║ Hourly Rate         : $1.5/hr                  ║
         ║ ────────────────────────────────────────────── ║
-        ║ Amount Due          : $1.50                    ║
+        ║ Amount Due          : $10.50                   ║
         ║ Payment Status      : PENDING                  ║
         ║                                                ║
         ║             Thank you for parking!             ║
