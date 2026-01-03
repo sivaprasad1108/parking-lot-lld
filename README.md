@@ -170,7 +170,7 @@ The receipt uses Unicode box-drawing characters and is right-aligned for visual 
         ║                 PARKING RECEIPT                ║
         ║                 ═══════════════                ║
         ║                                                ║
-        ║ Vehicle Number      : TN-01 AY-1111               ║
+        ║ Vehicle Number      : TN-01 AY-1111            ║
         ║ Vehicle Type        : CAR                      ║
         ║ Ticket ID           : T-MJYQM8KO151            ║
         ║ Parking Spot        : F1S2-#MJYQM8KK2          ║
